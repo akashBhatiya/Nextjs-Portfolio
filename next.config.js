@@ -4,6 +4,11 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  images: {
+    loader: 'cloudinary',
+    path: '/',
+  },
+
 }
 
 module.exports = nextConfig
