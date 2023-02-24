@@ -200,7 +200,7 @@ export default function Home() {
 
 
 {/* Section 3 starts now */}
-        <section className="py-10">
+        <section className="pt-8">
           <div>
             <h3 className="text-4xl text-center pb-1 text-gray-800 dark:text-gray-300"><b>Sample Templetes</b></h3>
           </div>
