@@ -226,6 +226,87 @@ export default function Home() {
           </div>
         </section>
 
+{/* Contact Form */}
+<section className=" flex flex-col justify-center items-center">
+          <div className="mt-8 text-gray-800 text-xl font-bold">
+            <h1>Contact Form</h1>
+          </div>
+          <div className="w-full  mt-5 sm:max-w-md md:lg:max-w-xl">
+            <form className="bg-gray-100 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+              <div className="mb-4">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                  for="username"
+                >
+                  Username
+                </label>
+                <input
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+                  id="username"
+                  type="text"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                  for="email"
+                >
+                  Email
+                </label>
+                <input
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+                  id="email"
+                  type="text"
+                  placeholder="Enter your email address"
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                  for="subject"
+                >
+                  Subject
+                </label>
+                <input
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+                  id="subject"
+                  type="text"
+                  placeholder="Title of your message"
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                  for="message"
+                >
+                  Message
+                </label>
+                <textarea
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+                  cols="30"
+                  rows="5"
+                  id="messege"
+                  type="text"
+                  placeholder="Enter your messege here"
+                />
+              </div>
+              <div class="flex items-center justify-center">
+                <button
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  type="button"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+            <p class="text-center text-gray-500 text-xs">
+              &copy; {currentYear} Akash Bhatiya. All rights reserved.
+            </p>
+          </div>
+        </section>
+
 {/* Footer */}
         <div className="border-t-2 border-gray-700 dark:border-gray-300 text-gray-700 dark:text-gray-300">
           <div className="pt-10 text-center">
