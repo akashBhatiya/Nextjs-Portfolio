@@ -308,7 +308,7 @@ export default function Home() {
         </section>
 
 {/* Footer */}
-        <div className="border-t-2 border-gray-700 dark:border-gray-300 text-gray-700 dark:text-gray-300">
+        <div className="border-t-2 mt-8 border-gray-700 dark:border-gray-300 text-gray-700 dark:text-gray-300">
           <div className="pt-10 text-center">
             <p className="">© {currentYear} <strong>Akash Bhatiya</strong></p>
           </div>
